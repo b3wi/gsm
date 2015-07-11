@@ -15,7 +15,7 @@ public abstract class GSMEntity implements Serializable
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "id", nullable = false, unique = true)
+    @Column(name = "c_id", nullable = false, unique = true)
     private long _identifier;
 
     public GSMEntity()

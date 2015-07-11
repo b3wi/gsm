@@ -1,4 +1,4 @@
-package b3wi.gsm.model.entity.parameters;
+package b3wi.gsm.model.entity.common.parameter;
 
 import java.util.regex.Pattern;
 
