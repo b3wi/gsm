@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>b3wi</groupId>
+  <artifactId>gsm</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>gsm</name>
+  <url>https://github.com/b3wi/gsm</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <description>Game Server Manager (GSM)</description>
+  <issueManagement>
+  	<url>https://github.com/b3wi/gsm/issues</url>
+  	<system>GitHub Issues</system>
+  </issueManagement>
+  <scm>
+  	<url>https://github.com/b3wi/gsm</url>
+  	<connection>scm:git:git//github.com/b3wi/gsm.git</connection>
+  	<developerConnection>scm:git:git@github.com:b3wi/gsm.git</developerConnection>
+  </scm>
+  <developers>
+  	<developer>
+  		<email>william@b3wi.com</email>
+  		<name>William</name>
+  		<url>https://github.com/b3wi/</url>
+  		<id>b3wi</id>
+  	</developer>
+  </developers>
+</project>
