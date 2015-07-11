@@ -15,12 +15,18 @@
   </properties>
 
   <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
+  <dependency>
+  	<groupId>junit</groupId>
+  	<artifactId>junit</artifactId>
+  	<version>4.12</version>
+  	<scope>test</scope>
+  </dependency>
+  <dependency>
+  	<groupId>javax.persistence</groupId>
+  	<artifactId>persistence-api</artifactId>
+  	<version>1.0.2</version>
+  	<scope>provided</scope>
+  </dependency>
   </dependencies>
   <description>Game Server Manager (GSM)</description>
   <issueManagement>
